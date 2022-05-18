@@ -1,0 +1,6 @@
+your_own_dataset/dev_data/
+your_own_dataset/eval_data/
+mnist/__pycache/
+mnist/dataset/
+mnist/__pycache__/
+venv/

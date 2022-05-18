@@ -1,0 +1,12 @@
+README.md
+setup.py
+fanogan/__init__.py
+fanogan/save_compared_images.py
+fanogan/test_anomaly_detection.py
+fanogan/train_encoder_izif.py
+fanogan/train_wgangp.py
+fanogan.egg-info/PKG-INFO
+fanogan.egg-info/SOURCES.txt
+fanogan.egg-info/dependency_links.txt
+fanogan.egg-info/requires.txt
+fanogan.egg-info/top_level.txt
