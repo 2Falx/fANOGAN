@@ -6,6 +6,7 @@ from tqdm import tqdm
 
 def test_anomaly_detection(opt, generator, discriminator, encoder,
                            dataloader, device, kappa=1.0):
+  ///
     generator.load_state_dict(torch.load("results/generator"))
     discriminator.load_state_dict(torch.load("results/discriminator"))
     encoder.load_state_dict(torch.load("results/encoder"))
