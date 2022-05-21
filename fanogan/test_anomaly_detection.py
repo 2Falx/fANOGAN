@@ -1,3 +1,4 @@
+a
 import torch
 import torch.nn as nn
 from tqdm import tqdm
@@ -19,9 +20,6 @@ def test_anomaly_detection(opt, generator, discriminator, encoder,
         f.write("label,img_distance,anomaly_score,z_distance\n")
 
     for img, label in tqdm(dataloader):
-        print(img)
-        print(label)
-        return
         real_img = img.to(device)
 
         real_z = encoder(real_img)
